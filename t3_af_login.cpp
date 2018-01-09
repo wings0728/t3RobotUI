@@ -80,7 +80,7 @@ QString T3_AF_logIn::getPassword(QString getUserName)
 {
     QString password_;
     QSqlRecord record_;
-    T3_AF_userDatabase userDatabase_;
+    T3_AF_userData userDatabase_;
     userDatabase_.createConnection();
     record_ = userDatabase_.searchByUserName(getUserName);
     password_ = record_.value(1).toString();

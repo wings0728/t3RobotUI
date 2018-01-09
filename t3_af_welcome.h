@@ -5,6 +5,7 @@
 #include <QDialog>
 
 #include "t3_af_login.h"
+#include "t3_af_mainwindow.h"
 
 namespace Ui {
 class T3_AF_welcome;

@@ -68,9 +68,9 @@ T3_AF_mainWindow::T3_AF_mainWindow(QDialog *welcome, QWidget *parent) :
     connect(timer_, SIGNAL(timeout()), this, SLOT(timeUpdate()));
     connect(ui->_exitPushBtn_, &QPushButton::clicked, this, &T3_AF_mainWindow::exitToWelcome);
     connect(ui->_facePushBtn_, &QPushButton::clicked, this, &T3_AF_mainWindow::toFace);
-    connect(ui->_tempraturePushBtn_, &QPushButton::clicked, this, &T3_AF_mainWindow::toWeatherForecast);
+    //connect(ui->_tempraturePushBtn_, &QPushButton::clicked, this, &T3_AF_mainWindow::toWeatherForecast);
     connect(ui->_mapPushBtn_, &QPushButton::clicked, this, &T3_AF_mainWindow::toMap);
-    connect(ui->_robotInfoPushBtn_, &QPushButton::clicked, this, &T3_AF_mainWindow::toRobotInfo);
+    //connect(ui->_robotInfoPushBtn_, &QPushButton::clicked, this, &T3_AF_mainWindow::toRobotInfo);
     connect(_weather, &T3_AF_getWeather::getReady, this, &T3_AF_mainWindow::weatherUpdate);
     //日志
     T3LOG("3+ 主界面构造");
