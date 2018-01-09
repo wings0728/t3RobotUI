@@ -41,8 +41,11 @@ T3_AF_welcome::T3_AF_welcome(QWidget *parent) :
 //进入logIn
 void T3_AF_welcome::enterSystem()
 {
-    T3_AF_logIn *logIn_ = new T3_AF_logIn(this);
-    logIn_->show();
+    //T3_AF_logIn *logIn_ = new T3_AF_logIn(this);
+    //logIn_->show();
+
+    T3_AF_mainWindow *mainWindow_ = new T3_AF_mainWindow(this);
+    mainWindow_->show();
     this->close();
 }
 

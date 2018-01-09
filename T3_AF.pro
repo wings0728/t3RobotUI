@@ -15,26 +15,26 @@ TEMPLATE = app
 SOURCES += main.cpp\
         t3_af_welcome.cpp \
     t3_af_login.cpp \
-    t3_af_userdatabase.cpp \
     t3_af_mainwindow.cpp \
     t3_af_confirmexit.cpp \
     t3_af_face.cpp \
     t3_af_getweather.cpp \
     t3_af_weatherforecast.cpp \
     t3_af_map.cpp \
-    t3_af_robotinfo.cpp
+    t3_af_robotinfo.cpp \
+    t3_af_userdata.cpp
 
 HEADERS  += t3_af_welcome.h \
     t3_af_config.h \
     t3_af_login.h \
-    t3_af_userdatabase.h \
     t3_af_mainwindow.h \
     t3_af_confirmexit.h \
     t3_af_face.h \
     t3_af_getweather.h \
     t3_af_weatherforecast.h \
     t3_af_map.h \
-    t3_af_robotinfo.h
+    t3_af_robotinfo.h \
+    t3_af_userdata.h
 
 FORMS    += t3_af_welcome.ui \
     t3_af_login.ui \
@@ -44,7 +44,8 @@ FORMS    += t3_af_welcome.ui \
     t3_af_getweather.ui \
     t3_af_weatherforecast.ui \
     t3_af_map.ui \
-    t3_af_robotinfo.ui
+    t3_af_robotinfo.ui \
+    t3_af_userdata.ui
 
 RESOURCES += \
     t3_af.qrc
